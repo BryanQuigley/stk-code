@@ -24,7 +24,7 @@ jobs:
   build:
 
     strategy:
-      fail-fast: true
+      #fail-fast: true
       matrix:
         os: [ubuntu-latest]
         compiler: [gcc, clang]
